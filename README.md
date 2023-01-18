@@ -6,11 +6,9 @@ Note: For complete sample apps, see https://github.com/microsoft/ccf-app-samples
 
 ## Quickstart
 
-The quickest way to build and run this sample CCF app is to checkout this repository locally in its development container by clicking: 
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=590635544)
+
 [![Open in VSCode](https://img.shields.io/static/v1?label=Open+in&message=VSCode&logo=visualstudiocode&color=007ACC&logoColor=007ACC&labelColor=2C2C32)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/letmaik/ccf-app-template)
-
-All dependencies will be automatically installed (takes ~2 mins on first checkout).
-
 
 ### Build C++ app
 
