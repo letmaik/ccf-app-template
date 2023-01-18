@@ -5,10 +5,9 @@ cmake_minimum_required(VERSION 3.16)
 
 project(ccf_app LANGUAGES C CXX)
 
-option(
-  COMPILE_TARGET
-  "Compile target to build for, one of [virtual;sgx;snp], defaults to virtual"
-  virtual)
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+
+set(COMPILE_TARGET "sgx")
 
 find_package("ccf_${COMPILE_TARGET}" REQUIRED)
 

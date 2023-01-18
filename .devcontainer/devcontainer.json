@@ -2,8 +2,7 @@
   "name": "Development Container for CCF C++ Apps",
   "dockerFile": "Dockerfile",
   "extensions": [
-    "ms-vscode.cpptools",
-    "vsls-contrib.codetour"
+    "ms-vscode.cpptools"
   ],
   "features": {
     "ghcr.io/devcontainers/features/docker-from-docker:1": {
